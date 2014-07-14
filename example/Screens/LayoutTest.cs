@@ -130,8 +130,8 @@ namespace GuiExample {
             Gui.Resize();
         }
 
-        public override void Update() {
-            Gui.Update();
+        public override void Update(GameTime gameTime) {
+            Gui.Update(gameTime);
         }
 
         public override void Draw() {

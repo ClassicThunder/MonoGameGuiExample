@@ -7,10 +7,12 @@ namespace GuiExample {
 
         public Color Color { get; set; }
         public Gui Gui { get; set; }
+        public Game Game { get; set; }
 
-        public abstract void Init(Game1 game);
+        public virtual void Init(Game1 game) { Game = game; }
+
         public abstract void OnResize();
-        public abstract void Update();
+        public abstract void Update(GameTime time);
         public abstract void Draw();
     }
 }

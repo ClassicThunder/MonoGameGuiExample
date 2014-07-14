@@ -80,8 +80,8 @@ namespace GuiExample {
             Gui.Resize();
         }
 
-        public override void Update() {
-            Gui.Update();
+        public override void Update(GameTime gameTime) {
+            Gui.Update(gameTime);
 
             //Has mouse only returns true if the mouse is above a GIU widget.
             _hasMouse.Value = "HasMouse = " + Gui.HasMouse;

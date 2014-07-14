@@ -93,7 +93,7 @@ namespace GuiExample
                 _currentScreen.Init(this);
             }
 
-            _currentScreen.Update();
+            _currentScreen.Update(gameTime);
 
             _oldState = newState;
 
