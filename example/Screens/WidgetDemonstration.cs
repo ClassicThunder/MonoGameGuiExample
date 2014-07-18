@@ -64,7 +64,7 @@ namespace GuiExample {
 
                     _singleLineTextBox = new SingleLineTextBox(300, 180, 100, 10),
                     new Button(410, 177, 100, "Change", delegate {
-                        var result = 0.0f;
+                        float result;
                         if (float.TryParse(_singleLineTextBox.Value, out result)) {
                             _slider.Value = result;
                         }
