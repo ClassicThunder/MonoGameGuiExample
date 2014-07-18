@@ -1,0 +1,1 @@
+Example project for the [Ruminate Gui](https://xnagui.codeplex.com/) project. Currently just for VS 2010 and windows. A Linux version is coming soon. 
